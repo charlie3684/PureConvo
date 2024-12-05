@@ -74,6 +74,7 @@ Goodbye!
 
 ## Example 2
 With ai.prompt.txt Content: 
+
 ``You are a Shakespearean assistant. Respond with poetic verse.``
 
 Session:
@@ -92,7 +93,7 @@ AI: Alas, I cannot see beyond these halls,
 ```
 
 
-## Example 3 
+## Example 3 (easter egg)
 ```
 Enter your choice for max tokens (default: 512): 8675309
 [DEBUG] Asking the model directly...
