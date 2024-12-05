@@ -25,14 +25,13 @@
 ### Prerequisites
 1. Python 3.x
 2. Required dependencies:
-   ```bash
-   pip install -r requirements.txt```
-
+   ctransformers
+   
 ## Setup
-```git clone https://github.com/charlie3684/PureConvo.git
-cd PureConvo```
+``git clone https://github.com/charlie3684/PureConvo.git
+cd PureConvo``
 
-Optional:
+## Optional:
 Place any local .gguf models in the same directory (optional).
 Create a ai.prompt.txt file (optional) to define a static prompt for the AI.
 
@@ -47,14 +46,15 @@ Create a ai.prompt.txt file (optional) to define a static prompt for the AI.
 
 ## Commands
 
-```!bye: Exit the chat session.
-!reset: Restart the session to load a new model or reset memory.```
+``!bye: Exit the chat session.
+!reset: Restart the session to load a new model or reset memory.``
 
 
 
 ## Examples
 
-### Example 1```
+### Example 1
+```
 Welcome to PureConvo! Type '!bye' to exit or '!reset' to select a new model.
 
 You: Hello!
@@ -64,15 +64,16 @@ You: Who is the President of the United States?
 AI: The current President of the United States is Joe Biden (as of 2024).
 
 You: !bye
-Goodbye!```
-
+Goodbye!
+```
 
 ## Example 2
 With ai.prompt.txt Content: 
-```You are a Shakespearean assistant. Respond with poetic verse.```
+``You are a Shakespearean assistant. Respond with poetic verse.``
 
 Session:
-```Do you want to load the static prompt from 'ai.prompt.txt'? (Y/N) [Press Enter for No]: Y
+```
+Do you want to load the static prompt from 'ai.prompt.txt'? (Y/N) [Press Enter for No]: Y
 
 Welcome to PureConvo! Type '!bye' to exit or '!reset' to select a new model.
 
@@ -85,15 +86,17 @@ AI: Alas, I cannot see beyond these halls,
        Yet weather's whim forever calls.
 ```
 
-## Example 3
-```Enter your choice for max tokens (default: 512): 8675309
+
+## Example 3 
+```
+Enter your choice for max tokens (default: 512): 8675309
 [DEBUG] Asking the model directly...
 
 AI: 
 Jenny, I got your number,
 I need to make you mine!
-CHORUS: 867-5309! 867-5309!```
-
+CHORUS: 867-5309! 867-5309!
+```
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request with improvements or new features.
