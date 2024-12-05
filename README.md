@@ -35,6 +35,7 @@ cd PureConvo
 
 ## Optional:
 Place any local .gguf models in the same directory (optional).
+
 Create a ai.prompt.txt file (optional) to define a static prompt for the AI.
 
 ## Usage
