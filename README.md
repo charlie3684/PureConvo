@@ -48,8 +48,10 @@ Create a ai.prompt.txt file (optional) to define a static prompt for the AI.
 
 ## Commands
 
-``!bye: Exit the chat session.
-!reset: Restart the session to load a new model or reset memory.``
+```
+!bye: Exit the chat session.
+!reset: Restart the session to load a new model or reset memory.
+```
 
 
 
