@@ -26,18 +26,18 @@
 1. Python 3.x
 2. Required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt```
 
 ## Setup
-git clone https://github.com/charlie3684/PureConvo.git
-cd PureConvo
+```git clone https://github.com/charlie3684/PureConvo.git
+cd PureConvo```
 
 Optional:
 Place any local .gguf models in the same directory (optional).
 Create a ai.prompt.txt file (optional) to define a static prompt for the AI.
 
 ## Usage
-python3 ai.py
+```python3 ai.py```
 
 ## Workflow
 1. Select a Model: Choose from detected local models or enter the option to download a remote model.
@@ -47,14 +47,14 @@ python3 ai.py
 
 ## Commands
 
-!bye: Exit the chat session.
-!reset: Restart the session to load a new model or reset memory.
+```!bye: Exit the chat session.
+!reset: Restart the session to load a new model or reset memory.```
 
 
 
 ## Examples
 
-### Example 1
+### Example 1```
 Welcome to PureConvo! Type '!bye' to exit or '!reset' to select a new model.
 
 You: Hello!
@@ -64,15 +64,15 @@ You: Who is the President of the United States?
 AI: The current President of the United States is Joe Biden (as of 2024).
 
 You: !bye
-Goodbye!
+Goodbye!```
 
 
 ## Example 2
 With ai.prompt.txt Content: 
-You are a Shakespearean assistant. Respond with poetic verse.
+```You are a Shakespearean assistant. Respond with poetic verse.```
 
 Session:
-Do you want to load the static prompt from 'ai.prompt.txt'? (Y/N) [Press Enter for No]: Y
+```Do you want to load the static prompt from 'ai.prompt.txt'? (Y/N) [Press Enter for No]: Y
 
 Welcome to PureConvo! Type '!bye' to exit or '!reset' to select a new model.
 
@@ -83,16 +83,16 @@ AI: Greetings, kind soul, on this fair day!
 You: What’s the weather like?
 AI: Alas, I cannot see beyond these halls,
        Yet weather's whim forever calls.
-
+```
 
 ## Example 3
-Enter your choice for max tokens (default: 512): 8675309
+```Enter your choice for max tokens (default: 512): 8675309
 [DEBUG] Asking the model directly...
 
 AI: 
 Jenny, I got your number,
 I need to make you mine!
-CHORUS: 867-5309! 867-5309!
+CHORUS: 867-5309! 867-5309!```
 
 
 ## Contributing
