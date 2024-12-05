@@ -28,8 +28,10 @@
    ctransformers
    
 ## Setup
-``git clone https://github.com/charlie3684/PureConvo.git
-cd PureConvo``
+```
+git clone https://github.com/charlie3684/PureConvo.git
+cd PureConvo
+```
 
 ## Optional:
 Place any local .gguf models in the same directory (optional).
